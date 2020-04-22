@@ -7,7 +7,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <fcntl.h>
-#include "list.h"
 
 void list() {
     // clear the terminal screen
