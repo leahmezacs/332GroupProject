@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <string.h> 
 #define N 10000
+#include "list.h"
+#include "tree.h"
 
 int main(void)
 {
@@ -51,12 +53,14 @@ int main(void)
     */
         if(strncmp("tree*\n", buffer, 6) == 0)
         {
-            printf("You chose tree*\n"); //debugging purposes
+            // printf("You chose tree*\n"); //debugging purposes
+            tree();
             //Afsana :)
         }
         if(strncmp("list*\n", buffer, 6) == 0)
         {
-            printf("You chose list*\n"); //debugging purposes
+            // printf("You chose list*\n"); //debugging purposes
+            list();
             //YuTing :)
         }
         if(strncmp("path*\n", buffer, 6) == 0)

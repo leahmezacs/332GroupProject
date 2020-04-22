@@ -8,7 +8,7 @@
 #include<fcntl.h> 
 #include<stdlib.h> 
 
-int main()
+void tree()
 { 
      // creating directory dir0 
      struct stat st = {0}; 

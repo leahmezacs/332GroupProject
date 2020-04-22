@@ -7,8 +7,9 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <fcntl.h>
+#include "list.h"
 
-int main(void) {
+void list() {
     // clear the terminal screen
     system("clear");
 
