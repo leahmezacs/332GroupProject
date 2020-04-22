@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h> 
 #define N 10000
+#include "list.h"
 
 int main(void)
 {
@@ -57,6 +58,7 @@ int main(void)
         if(strncmp("list*\n", buffer, 6) == 0)
         {
             printf("You chose list*\n"); //debugging purposes
+            list();
             //YuTing :)
         }
         if(strncmp("path*\n", buffer, 6) == 0)
