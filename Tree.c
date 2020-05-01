@@ -7,6 +7,7 @@
 #include<unistd.h> 
 #include<fcntl.h> 
 #include<stdlib.h> 
+#include"tree.h"
 
 void tree()
 { 
@@ -44,5 +45,5 @@ void tree()
      { 
            mkdir("./Dir1", 0700); 
      } 
-    
+     
 } 
