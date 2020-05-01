@@ -22,19 +22,19 @@ void tree()
     chdir("Dir0"); 
 
     // Creating files inside Dir0 
-    int fileDescriptor = open("t1.txt", O_RDWR | O_APPEND | O_CREAT); 
+    int fileDescriptor = open("t1.txt", O_RDWR | O_APPEND | O_CREAT, 0666); 
     if(fileDescriptor < 0)
     { 
            perror("Error creating file"); 
            exit(-1); 
     } 
-    fileDescriptor = open("t2.txt", O_RDWR | O_APPEND | O_CREAT); 
+    fileDescriptor = open("t2.txt", O_RDWR | O_APPEND | O_CREAT, 0666); 
     if(fileDescriptor < 0)
     { 
            perror("Error creating file"); 
            exit(-1); 
     } 
-    fileDescriptor = open("t3.txt", O_RDWR | O_APPEND | O_CREAT); 
+    fileDescriptor = open("t3.txt", O_RDWR | O_APPEND | O_CREAT, 0666); 
     if(fileDescriptor < 0)
     { 
            perror("Error creating file"); 
